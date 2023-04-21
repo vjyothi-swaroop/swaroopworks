@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* body {
+    margin: 0px;
+    color: blue;
+}
+
+.bg_container {
+    background-color: #E37383;
+    padding: 20px;
+    color: #27285C;
+}
+
+.profile_container {
+    height: 130px;
+    flex-wrap: wrap;
+}
+
+.profile_logo {
+    color: #27285C;
+    border: 5px solid #27285C;
+    height: 70px;
+    width: 70px;
+    border-radius: 140px;
+    font-size: 40px;
+    padding-top: 6px;
+}
+
+.profile_name_container {
+    padding-left: 15px;
+    border-right: 5px solid #27285C;
+    border-bottom: 5px solid #27285C;
+}
+
+.profile_name {
+    font-size: 22px;
+}
+
+.profile_address {
+    border-bottom: 5px solid #27285C;
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+.work_container {
+    height: 180px;
+}
+
+.work_logo {
+    color: #27285C;
+    border: 5px solid #27285C;
+    height: 70px;
+    width: 70px;
+    border-radius: 140px;
+    font-size: 30px;
+    padding-top: 13px;
+}
+
+.work_years_container {
+    display: grid;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-columns: 80px 350px;
+    padding: 5px;
+    border-bottom: 5px solid #27285C;
+}
+
+.years_container {
+    height: 44px;
+    width: 80px;
+    font-size: 12px;
+}
+
+.exp_container {
+    height: 44px;
+    width: 350px;
+    font-size: 10px;
+}
+
+.skills_container {
+    display: grid;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    grid-template-columns: 90px 110px;
+    border-right: 5px solid #27285C;
+    border-bottom: 5px solid #27285C;
+    padding-top: 10px;
+}
+
+.awards_container {
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 40px 160px;
+    padding-top: 10px;
+    border-bottom: 5px solid #27285C;
+}
+
+.intrests_container {
+    height: 130px;
+}
+
+.int_pics_container {
+    border-bottom: 5px solid #27285C;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.int_pics {
+    font-size: 40px;
+    padding-right: 5px;
+    color: #E37383;
+    background-color: #27285C;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.academics_container {
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 100px 320px;
+    border-bottom: 5px solid #27285C;
+}
